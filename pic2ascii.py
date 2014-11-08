@@ -1,5 +1,5 @@
 '''
-Author:		Joshua Twigg
+Author:		Joshua M. Twigg
 Date:		October 17, 2014
 Program:	Picture to ASCII
 Purpose:	Take a picture and convert each pixel to an ascii character.  Save the 
