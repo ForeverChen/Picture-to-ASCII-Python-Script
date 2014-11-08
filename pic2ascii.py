@@ -30,8 +30,8 @@ if w < h:
 	width = 150.0
 else:
 	width = 250.0
-height = int(math.floor(((width/w) * h)/1.8))
-width = int(width)
+height = int(math.floor(((width/w) * h)/1.8))	# This formula adjusts the height to match the width.  It is not always
+width = int(width)				#	accurate for odd-shaped pictures, but it mostly works well.
 picture = picture.resize((width,height),Image.ANTIALIAS)
 
 # Convert image to gray scale
