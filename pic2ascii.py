@@ -2,8 +2,8 @@
 Author:		Joshua Twigg
 Date:		October 17, 2014
 Program:	Picture to ASCII
-Purpose:	Take a picture and convert each pixel to an ascii representation.  Save the 
-			file as a text document that will display the picture in text format.
+Purpose:	Take a picture and convert each pixel to an ascii character.  Save the 
+		file as a text document that will display the picture in text format.
 '''
 
 from PIL import Image
