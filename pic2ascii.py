@@ -25,7 +25,7 @@ picture = picture.enhance(float(c))
 # Determine image resolution
 (w,h) = picture.size
 
-# Resize image to a width of 150 pixels while keeping height to width ratio
+# Resize image to an appropriate width while keeping the height-to-width ratio
 if w < h:
 	width = 150.0
 else:
